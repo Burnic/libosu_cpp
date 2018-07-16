@@ -10,7 +10,6 @@ add_library(
     ${SRC}/buffer.cpp
     ${SRC}/packet.cpp
     ${SRC}/packetlist.cpp
-    ${SRC}/packets.cpp
 )
 
 target_include_directories(osu PRIVATE include)
